@@ -1,0 +1,37 @@
+aside {
+  position: fixed;
+  padding: 0.5rem;
+  flex: 0.3;
+  background-color: #333;
+  height: 100vh;
+}
+
+aside img {
+  width: 150px;
+  height: auto;
+}
+
+.nav-items {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: gray;
+}
+
+.nav-item img {
+  width: 1rem;
+}
